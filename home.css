@@ -1,0 +1,165 @@
+body {
+    font-family: helvetica;
+    margin: 0;
+}
+body{
+    background-image: url("images for web/itsalogo1.png");
+    background-repeat: no-repeat;
+    background-size: 275px;
+}
+
+#boxtop{
+    width: 395px;
+    height: 50px;
+    margin: 0px auto;
+    text-decoration-color: white;
+    background-color: darkblue;
+    float: right;  
+}
+
+
+ul.locations li{
+    top: 0px;
+    margin: 3px;
+    display: inline;
+    color: white;
+    font-size: 12px;
+    
+}
+ul{
+    list-style-type: none;
+}
+#loginsignup{
+    margin: 0px auto;
+    float: left;
+    padding-left: 700px;
+    font-size: 20px;
+    
+    
+}
+ul.login li{
+    top: 0px;
+    width: auto;
+   display: inline;
+   
+}
+#homeandmore{
+    margin: 0px auto;
+    float: left;
+    padding-left: 210px;
+    font-size: 25px;
+
+}
+ul.homenmore li{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+   
+ 
+}
+a:hover{
+    color: orange; 
+}
+a:active{
+    background-color: lightgrey;
+}
+a{
+    color: darkgray;
+}
+
+.slider{
+    overflow: hidden;
+}
+.slider figure div{
+    width: 20%;
+    float: left;
+    
+}
+.slider figure img{
+    width: 100%;
+    padding-left: -100px;
+    float: left;
+}
+.slider figure{
+    position: relative;
+    width: 1200%;
+   margin: 50px;
+  left: 0px;
+  animation: 20s slidey infinite;
+}
+
+
+@keyframes slidey{
+    0%{
+        left: 0%;
+    }
+   20%{
+        left: 0%;
+    }
+    50%
+    {
+        left: -100%;
+    }
+    75%
+    {
+        left: -200%;
+    }
+    80%{
+        left: -200%
+    }
+    90{
+        left: -100%;
+    }
+    100%{
+        left: 0%;
+    }
+}
+.boxed{
+    width: 300px;
+    height: 90px;
+    background-color: #f39c12;
+}
+.boxed2{
+    width: 300px;
+    height: 90px;
+    background-color: #ec644b;
+    margin-left: 300px;
+    margin-top: -110px;
+}
+.boxed2 p{
+    padding-top: 30px;
+    padding-left: 350;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+   color:white;
+    
+}
+.boxed3{
+    width: 300px;
+    height: 90px;
+    background-color: #26a65b;
+    margin-left: 600px;
+    margin-top: -110px;
+}
+.boxed3 p{
+    padding-top: 30px;
+    padding-left: 350;
+}
+.boxed4{
+    width: 300px;
+    height: 90px;
+    background-color: #22a7f0;
+    margin-left: 900px;
+    margin-top: -110px;
+}
+.boxed4 p{
+    padding-top: 30px;
+    padding-left: 350;
+}
+hr{
+    width: 60%;
+   border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}

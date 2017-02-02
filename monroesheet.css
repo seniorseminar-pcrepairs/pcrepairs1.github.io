@@ -1,0 +1,81 @@
+body {
+    font-family: helvetica;
+    margin: 0;
+}
+h1 {font-size:40pt;text-align:center; color: gray; }
+
+a:hover{
+    color: orange; 
+}
+a{
+    color: grey;
+}
+a:active {
+    background-color: lightgrey;
+}
+
+
+#homecontactus{
+    max-width: 1920px;
+    margin: 0px auto;
+    float: right;
+    padding-right: 50px;
+    font-size: 25px;
+   
+}
+
+ul.home li{
+   top: 0px;
+   width: auto;
+   display: inline;
+   padding: 10px;
+   
+  } 
+
+.form { 
+    float: right;
+    font-size: 20px;
+    color: gray; 
+    
+}
+
+button{
+    display: inline-block;
+    margin: 0 10px 0 0;
+    padding:5px 15px;
+    font-size: 15px;
+    color: orange;
+    background: rgba(0,0,0,0);
+    border: solid 2px grey;
+}
+button:hover{
+    border-color: orange;
+    color: orange;
+}
+
+
+
+.create {
+    position: relative;
+    display: inline-block;
+}
+footer{
+    padding-top: 100px;
+    color: gray;
+}
+a{
+    text-decoration: none;
+    color: darkgray;
+}
+#nav{
+    margin: 0px 50px;
+    float: right;
+    font-size: 20px;
+}
+ul.navback li{
+    top: 0px;
+    width: auto;
+   display: inline;
+    margin: 10px;
+    padding: 10px;
+}
