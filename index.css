@@ -5,23 +5,31 @@ top: 0;
 }
 
 #topbar{
-    background-image: url(images/pcrepairs1.png);
-    background-repeat: no-repeat;
-    background-size: 160px 40px;
-    background-position: left;
     height: 55px;
     width: 100%;;
     max-width: 100%;
-    background-color: #2574a9;
     position: absolute;
-    position: fixed;
-    -moz-box-shadow:5px 1px 5px 5px black;
+    /*position: fixed;*/
+    /*-moz-box-shadow:5px 1px 5px 5px black;
     -webkit-box-shadow:5px 1px 5px 5px black;
-    box-shadow:5px 1px 5px 5px black;
+    box-shadow:5px 1px 5px 5px black;*/
+}
+.aboxed{
+    border-radius: 5px;
+    background-color: #2275a9;
+    transition: background-color 0.5s ease;
+}
+.aboxed2{
+    background-color: #f8c323;
+}
+.top li img{
+    width: 60px;
+    height: 40px;
 }
 .top li{
     display: inline;
     margin: 20px;
+    font-size: 30px;
     margin-top: -5px;
     float: right;
     font-family: helvetica;
@@ -81,7 +89,10 @@ hr{
 .boxed1 a{
     color: white;
 }
-
+.packages2{
+    background-color: #f8c323;
+    
+}
 .boxed1{
     margin-left: 5%;
     margin-top: 3%;
@@ -89,6 +100,7 @@ hr{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 300px 212px;
+    transition: background-color 0.5s ease;
     width: 350px;
     height: 425px;
     background-color: #303030;
@@ -112,6 +124,7 @@ hr{
     background-image: url(images/icon2.png);
     background-repeat: no-repeat;
     background-position: center;
+    transition: background-color 0.5s ease;
     background-size: 325px 312px;
     width: 350px;
     height: 425px;
@@ -137,6 +150,7 @@ hr{
     background-repeat: no-repeat;
     background-position: center;
      background-size: 335px 212px;
+    transition: background-color 0.5s ease;
     width: 350px;
     height: 425px;
     background-color: #303030;
@@ -183,13 +197,188 @@ hr{
 
 @media screen and (max-width: 480px)
 {
+ #hamburger{
+        float: right;
+        cursor: pointer;
+        padding: 15px;
+        display: block;
+}
+.line{
+        border-radius: 5px;
+        border-bottom: 4px solid #fff;
+        width: 30px;
+        margin-bottom: 6px;
+ }
+.line:last-child{
+        margin-bottom: 0;
+    }
+.top{
+display: none;
+/*height: 0;
+overflow: hidden;*/
+}
 .top li{
-    display: inline;
-    margin: 20px;
-    margin-top: -2px;
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 30px;
     float: right;
-    font-size: 20px;
     font-family: helvetica;
+    
+}
+.top li a{
+    text-decoration: none;
+    color: white;
+    }
+#slider{
+        display: none;
+ }
+    
+#topbar2{
+    height: 680px;
+    max-height: 100%;
+    width: 100%
+    max-width: 100%;
+    background-color: #303030;
+    -moz-box-shadow:5px 1px 5px 5px black;
+    -webkit-box-shadow:5px 1px 5px 5px black;
+    box-shadow:5px 1px 5px 5px black;
+}
+#packages{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#aboutus h1, p{
+        margin: auto;
+        text-align: center;
+}
+ #aboutus{ 
+    margin: auto;
+    word-wrap: break-word;
+    width: 85%;
+    height: 50%
+    max-width: 100%;
+    min-height: 100%;
+    background-color: white;
+    -moz-box-shadow:5px 1px 10px 5px grey;
+    -webkit-box-shadow:5px 1px 10px 5px grey;
+    box-shadow:5px 1px 10px 5px grey;
+ }
+#aboutuspic{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+    height: 20%;
+}
+    .boxed1 a{
+    color: white;
+}
+
+.boxed1{
+    margin:auto;
+    margin-top: 3%;
+    background-image: url(images/icon1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px 106px;
+    transition: background-color 0.5s ease;
+    width: 175px;
+    height: 212.5px;
+    background-color: #303030;
+    -moz-box-shadow:5px 1px 10px 5px grey;
+    -webkit-box-shadow:5px 1px 10px 5px grey;
+    box-shadow:5px 1px 10px 5px grey;
+}
+.boxed1 p{
+    font-family: helvetica;
+    text-align: center;
+    font-size: 17px;
+    padding-top:185px;
+}
+.boxed2 a{
+    color: white;
+}
+
+.boxed2{
+    margin:auto;
+    margin-top: 3%;
+    background-image: url(images/icon2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 162px 156px;
+    transition: background-color 0.5s ease;
+     width: 175px;
+    height: 212.5px;
+    background-color: #303030;
+    -moz-box-shadow:5px 1px 10px 5px grey;
+    -webkit-box-shadow:5px 1px 10px 5px grey;
+    box-shadow:5px 1px 10px 5px grey;
+}
+.boxed2 p{
+    font-family: helvetica;
+    text-align: center;
+    font-size: 17px;
+    padding-top:185px;
+}
+.boxed3 a{
+    color: white;
+}
+
+.boxed3{
+    margin: auto;
+    margin-top: 3%;
+    background-image: url(images/icon3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 167px 106px;
+    transition: background-color 0.5s ease;
+    width: 175px;
+    height: 212.5px;
+    background-color: #303030;
+    -moz-box-shadow:5px 1px 10px 5px grey;
+    -webkit-box-shadow:5px 1px 10px 5px grey;
+    box-shadow:5px 1px 10px 5px grey;
+}
+.boxed3 p{
+    font-family: helvetica;
+    text-align: center;
+    font-size: 17px;
+    padding-top:185px;
+}
+}
+
+@media screen and (min-width: 481px) and (max-width: 750px)
+{
+    #hamburger{
+        float: right;
+        cursor: pointer;
+        padding: 15px;
+        display: block;
+    }
+    .line{
+        border-radius: 5px;
+        border-bottom: 4px solid #fff;
+        width: 30px;
+        margin-bottom: 6px;
+    }
+    .line:last-child{
+        margin-bottom: 0;
+    }
+.top{
+display: none;
+/*height: 0;
+overflow: hidden;*/
+}
+.top li{
+    text-align: center;
+    width: 100%;
+    display: block;
+    font-size: 30px;
+    float: right;
+    font-family: helvetica;
+    
 }
 .top li a{
     text-decoration: none;
@@ -200,7 +389,7 @@ hr{
     }
 
     #topbar2{
-    height: 500px;
+    height: 680px;
     max-height: 100%;
     width: 100%
     max-width: 100%;
@@ -248,6 +437,7 @@ hr{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 150px 106px;
+    transition: background-color 0.5s ease;
     width: 175px;
     height: 212.5px;
     background-color: #303030;
@@ -272,6 +462,7 @@ hr{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 162px 156px;
+    transition: background-color 0.5s ease;
      width: 175px;
     height: 212.5px;
     background-color: #303030;
@@ -296,6 +487,7 @@ hr{
     background-repeat: no-repeat;
     background-position: center;
     background-size: 167px 106px;
+    transition: background-color 0.5s ease;
     width: 175px;
     height: 212.5px;
     background-color: #303030;
@@ -309,5 +501,6 @@ hr{
     font-size: 17px;
     padding-top:185px;
 }
+    
 }
 
