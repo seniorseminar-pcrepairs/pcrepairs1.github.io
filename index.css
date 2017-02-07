@@ -1,0 +1,313 @@
+body,html {
+font-family: helvetica;
+margin: 0;
+top: 0;
+}
+
+#topbar{
+    background-image: url(images/pcrepairs1.png);
+    background-repeat: no-repeat;
+    background-size: 160px 40px;
+    background-position: left;
+    height: 55px;
+    width: 100%;;
+    max-width: 100%;
+    background-color: #2574a9;
+    position: absolute;
+    position: fixed;
+    -moz-box-shadow:5px 1px 5px 5px black;
+    -webkit-box-shadow:5px 1px 5px 5px black;
+    box-shadow:5px 1px 5px 5px black;
+}
+.top li{
+    display: inline;
+    margin: 20px;
+    margin-top: -5px;
+    float: right;
+    font-family: helvetica;
+}
+.top li a{
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    text-decoration-color: #f8c323;
+}
+button{
+    margin: 0 10px 0 0;
+    padding:5px 15px;
+    color: white;
+    background: rgba(0,0,0,0);
+    border: solid 2px white;
+}
+#topbar2{
+    height: 700px;
+    max-height: 100%;
+    width: 100%;
+    max-width: 100%;
+    background-color: #303030;
+   /* -moz-box-shadow:5px 1px 5px 5px black;
+    -webkit-box-shadow:5px 1px 5px 5px black;
+    box-shadow:5px 1px 5px 5px black;*/
+}
+.sliders img{
+    padding-top: 5%;
+    padding-left: 5%;
+    padding: 25px;
+    width: 600px;
+    height: 440px;
+}
+#slider{
+    padding-top: 5%;
+    padding-left: 5%;
+    width: 720px;
+    height: 500px;
+    overflow: hidden;
+    float: left;
+}
+.slide{
+
+}
+hr{
+    width: 80%;
+   border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+#packages{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.boxed1 a{
+    color: white;
+}
+
+.boxed1{
+    margin-left: 5%;
+    margin-top: 3%;
+    background-image: url(images/icon1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 300px 212px;
+    width: 350px;
+    height: 425px;
+    background-color: #303030;
+    -moz-box-shadow:5px 1px 10px 5px grey;
+    -webkit-box-shadow:5px 1px 10px 5px grey;
+    box-shadow:5px 1px 10px 5px grey;
+}
+.boxed1 p{
+    font-family: helvetica;
+    text-align: center;
+    font-size: 40px;
+    padding-top:325px;
+}
+.boxed2 a{
+    color: white;
+}
+
+.boxed2{
+    margin-left: 5%;
+    margin-top: 3%;
+    background-image: url(images/icon2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 325px 312px;
+    width: 350px;
+    height: 425px;
+    background-color: #303030;
+    -moz-box-shadow:5px 1px 10px 5px grey;
+    -webkit-box-shadow:5px 1px 10px 5px grey;
+    box-shadow:5px 1px 10px 5px grey;
+}
+.boxed2 p{
+    font-family: helvetica;
+    text-align: center;
+    font-size: 40px;
+    padding-top:325px;
+}
+.boxed3 a{
+    color: white;
+}
+
+.boxed3{
+    margin-left: 5%;
+    margin-top: 3%;
+    background-image: url(images/icon3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+     background-size: 335px 212px;
+    width: 350px;
+    height: 425px;
+    background-color: #303030;
+    -moz-box-shadow:5px 1px 10px 5px grey;
+    -webkit-box-shadow:5px 1px 10px 5px grey;
+    box-shadow:5px 1px 10px 5px grey;
+}
+.boxed3 p{
+    font-family: helvetica;
+    text-align: center;
+    font-size: 40px;
+    padding-top:325px;
+}
+#aboutusandpic{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#aboutus p,h1{
+    margin-left: 2%;
+}
+#aboutus{
+    margin-left: 1%;
+    word-wrap: break-word;
+    width: 55%;
+    height: 50%
+    max-width: 100%;
+    min-height: 100%;
+    background-color: white;
+    -moz-box-shadow:5px 1px 10px 5px grey;
+    -webkit-box-shadow:5px 1px 10px 5px grey;
+    box-shadow:5px 1px 10px 5px grey;
+}
+#aboutuspic{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 453px;
+    height: 250px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+@media screen and (max-width: 480px)
+{
+.top li{
+    display: inline;
+    margin: 20px;
+    margin-top: -2px;
+    float: right;
+    font-size: 20px;
+    font-family: helvetica;
+}
+.top li a{
+    text-decoration: none;
+    color: white;
+    }
+    #slider{
+        display: none;
+    }
+
+    #topbar2{
+    height: 500px;
+    max-height: 100%;
+    width: 100%
+    max-width: 100%;
+    background-color: #303030;
+    -moz-box-shadow:5px 1px 5px 5px black;
+    -webkit-box-shadow:5px 1px 5px 5px black;
+    box-shadow:5px 1px 5px 5px black;
+    }
+    #packages{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    #aboutus h1, p{
+        margin: auto;
+        text-align: center;
+    }
+    #aboutus{ 
+    margin: auto;
+    word-wrap: break-word;
+    width: 85%;
+    height: 50%
+    max-width: 100%;
+    min-height: 100%;
+    background-color: white;
+    -moz-box-shadow:5px 1px 10px 5px grey;
+    -webkit-box-shadow:5px 1px 10px 5px grey;
+    box-shadow:5px 1px 10px 5px grey;
+    }
+    #aboutuspic{
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+    height: 20%;
+}
+    .boxed1 a{
+    color: white;
+}
+
+.boxed1{
+    margin:auto;
+    margin-top: 3%;
+    background-image: url(images/icon1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px 106px;
+    width: 175px;
+    height: 212.5px;
+    background-color: #303030;
+    -moz-box-shadow:5px 1px 10px 5px grey;
+    -webkit-box-shadow:5px 1px 10px 5px grey;
+    box-shadow:5px 1px 10px 5px grey;
+}
+.boxed1 p{
+    font-family: helvetica;
+    text-align: center;
+    font-size: 17px;
+    padding-top:185px;
+}
+.boxed2 a{
+    color: white;
+}
+
+.boxed2{
+    margin:auto;
+    margin-top: 3%;
+    background-image: url(images/icon2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 162px 156px;
+     width: 175px;
+    height: 212.5px;
+    background-color: #303030;
+    -moz-box-shadow:5px 1px 10px 5px grey;
+    -webkit-box-shadow:5px 1px 10px 5px grey;
+    box-shadow:5px 1px 10px 5px grey;
+}
+.boxed2 p{
+    font-family: helvetica;
+    text-align: center;
+    font-size: 17px;
+    padding-top:185px;
+}
+.boxed3 a{
+    color: white;
+}
+
+.boxed3{
+    margin: auto;
+    margin-top: 3%;
+    background-image: url(images/icon3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 167px 106px;
+    width: 175px;
+    height: 212.5px;
+    background-color: #303030;
+    -moz-box-shadow:5px 1px 10px 5px grey;
+    -webkit-box-shadow:5px 1px 10px 5px grey;
+    box-shadow:5px 1px 10px 5px grey;
+}
+.boxed3 p{
+    font-family: helvetica;
+    text-align: center;
+    font-size: 17px;
+    padding-top:185px;
+}
+}
+
