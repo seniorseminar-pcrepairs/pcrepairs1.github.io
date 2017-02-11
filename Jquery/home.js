@@ -3,25 +3,27 @@
 
 $(function() {
 
-var currentslide = 1;
-    
-var $slider = $('#slider')
-var $slidecontainer = $slider.find('.sliders');
- var $sliders = $slidecontainer.find('.slide');
-    
-  setInterval(function() {
-    $slidecontainer.animate({'margin-left':'-=720px'},2000, function() {
-        currentslide++;
-        if(currentslide === $sliders.length){
-            currentslide = 1;
-            $slidecontainer.css('margin-left',0);
-        }
+    $('#slider').cycle({
+        
+        fx:         'scrollHorz',
+        next:       '#next',
+        prev:       '#prev',
+        pager:      '#pager',
+        timeout:    3000,
+        speed:      1000,
+        pause:      1
+        
+        
     });
-  
-  },6000); 
+
     
-$("#hamburger").on('click', function() {
-    $(".top").slideToggle();
+    
+    
+    
+$(".hamburger").on('click', function(e) {
+    e.preventDefault();
+    
+    $(".menu").toggleClass('slide-down');
 });
     
 
