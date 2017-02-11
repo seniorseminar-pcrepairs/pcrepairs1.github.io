@@ -335,7 +335,7 @@ hr{
   }
   
   .slide-down {
-    height: 190px;
+    height: 250px;
   }
     
 #mainslide{
@@ -584,7 +584,7 @@ hr{
   }
   
   .slide-down {
-    height: 190px;
+    height: 250px;
   }
     
 #mainslide{
@@ -803,9 +803,9 @@ hr{
     ul a {
   display: block;
   margin: 0;
-  padding: 30px;
+  padding: 20px;
   padding-right: 0 !important; /* important overrides media queries */
-  font-size: 20px;
+  font-size: 15px;
   font-weight: lighter;
   text-align: center;
   color: white;
@@ -814,7 +814,7 @@ hr{
     }
 nav li {
 display: inline-block;
-  width: 30%;
+  width: 20%;
 }
 }
 
