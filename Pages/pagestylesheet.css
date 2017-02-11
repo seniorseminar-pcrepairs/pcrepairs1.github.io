@@ -156,7 +156,7 @@ button:hover{
 #formcontainer{
     position: relative;
     margin: 2em auto 0 auto;
-    width: 50%;
+    width: 80%;
     height: 300px;
     max-width: 100%;
     -moz-box-shadow:1px 1px 5px 1px grey;
@@ -165,27 +165,28 @@ button:hover{
 }
 .container{
     position: absolute;
-    width: 60%;
+    width: 75%;
     max-width: 100%;
     top: 10%;
-    left: 25%;
+    left: 10%;
 }
 .container input{
-    width: 100%;
+    width: 300px;
     display: block;
     margin: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 .container textarea{
-    width: 100%;
+    width: 300px;
+    height: 100px;
     display: block;
     margin: 20px;
     margin-left: auto;
     margin-right: auto;
 }
 .container button{ 
-    margin-top: 10px;
+    margin-top: 1px;
     margin-left: 110px;
     display: inline-block;
     font-size:20px;
@@ -197,5 +198,18 @@ button:hover{
     background: #2275a9;
 }
 
-
+@media screen and (max-width: 450px)
+{
+    .container input{
+        width: 175px;
+    }
+    .container textarea{
+        height: 100px;
+        width:175px;
+    }
+    .container button{
+    margin-top: 1px;
+    margin-left: 60px;
+    }
+}
 
