@@ -339,7 +339,7 @@ hr{
   }
     
 #mainslide{
-    width: 400px;
+    width: 350px;
     height: 250px;
     display: block;
     position: relative;
@@ -347,7 +347,7 @@ hr{
     margin: auto;
 }
 #slider{
-    width: 400px;
+    width: 350px;
     height: 250px;
     display: block;
     position: absolute;
@@ -358,7 +358,7 @@ hr{
     height: 250px;
     }
 .info{
-    width: 400px;
+    width: 350px;
     height: 80px;
     display: block;
     position: relative;
@@ -403,7 +403,7 @@ hr{
     cursor: pointer;
     z-index: 999;
     top: 120px;
-    right: 400px;
+    right: 350px;
 }
     
 #pager{
