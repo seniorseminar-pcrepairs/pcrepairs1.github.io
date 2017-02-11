@@ -149,3 +149,53 @@ button:hover{
     font-size: 15px;
     color: grey
 }
+
+
+
+/*-----------------------Contact us---------------*/
+#formcontainer{
+    position: relative;
+    margin: 2em auto 0 auto;
+    width: 50%;
+    height: 300px;
+    max-width: 100%;
+    -moz-box-shadow:1px 1px 5px 1px grey;
+    -webkit-box-shadow:1px 1px 5px 1px grey;
+    box-shadow:1px 1px 5px 1px grey;
+}
+.container{
+    position: absolute;
+    width: 50%;
+    max-width: 100%;
+    top: 10%;
+    left: 25%;
+}
+.container input{
+    width: 100%;
+    display: block;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container textarea{
+    width: 100%;
+    display: block;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container button{ 
+    margin-top: 10px;
+    margin-left: 110px;
+    display: inline-block;
+    font-size:20px;
+    color: #303030;
+    background: #f8c323;
+    border: 0px;
+}
+.container button:hover{
+    background: #2275a9;
+}
+
+
+
