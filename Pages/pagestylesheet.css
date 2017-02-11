@@ -1,0 +1,151 @@
+body,html{
+    font-family: helvetica;
+    margin: 0;
+    top: 0;
+}
+header{
+    z-index: 999;
+    position: absolute;
+    position: fixed;
+    background-color: #2275a9;
+    width: 100%;
+    text-align: center;
+}
+header img,h1{
+    display: inline-block;
+}
+header img{
+    width: 60px;
+    height: 40px;
+}
+header h1{
+    font-size: 20px;
+    color: white;
+}
+
+/*#imagecircle{
+    background-image: url(../images/icon1.png);
+    background-repeat: no-repeat;
+    background-size: 40px 40px;
+    background-position: right center;
+    margin-top: 10px;
+    float: right;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}*/
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav {
+    
+    width: 100%;
+    position: relative;
+    background-color: #303030;
+}
+
+ul a {
+  display: block;
+  margin: 0;
+  padding: 20px;
+  padding-right: 0 !important; /* important overrides media queries */
+  font-size: 20px;
+  font-weight: lighter;
+  text-align: left;
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+ul{
+    
+    list-style: none;
+   margin: 0;
+}
+ul a:hover {
+  background: #4a4949;
+}
+nav li {
+float: left;
+display: inline-block;
+  width: 30%;
+}
+
+nav li:last-child {
+  border-right: none;
+}
+
+#information1{
+    margin: auto;
+    width: 75%;
+    line-height: 1.5em;
+}
+#information2{
+    margin: auto;
+    width: 75%;
+    line-height: 1.5em;
+}
+#information3{
+    margin: auto;
+    width: 75%;
+    line-height: 1.5em;
+}
+hr{
+    width: 80%;
+   border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+button{
+    float: right;
+    margin: 0 10px 0 0;
+    padding:5px 15px;
+    color: #303030;
+    background: #f8c323;
+    border: 0px;
+}
+button a{
+    font-size: 20px;
+    color: #303030;
+    text-decoration: none;
+}
+button:hover{
+     margin: 0 10px 0 0;
+    padding:5px 15px;
+    color: #303030;
+    background: #2275a9;
+    border: 0px;
+}
+
+
+/*-------------------------Pakages page-----------------*/
+#services{
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: 500px;
+    -moz-box-shadow:1px 1px 5px 1px grey;
+    -webkit-box-shadow:1px 1px 5px 1px grey;
+    box-shadow:1px 1px 5px 1px grey;
+}
+.request {
+    position: absolute;
+    width: 80%;
+    height: 30%;
+   top: 10%;
+    left: 10%;
+    -moz-box-shadow:1px 1px 5px 1px grey;
+    -webkit-box-shadow:1px 1px 5px 1px grey;
+    box-shadow:1px 1px 5px 1px grey;
+    
+}
+.request h1{
+    position: relative;
+    top: 10%;
+    left: 5%;
+    font-size: 15px;
+    color: grey
+}
